@@ -1,0 +1,42 @@
+{
+    "Aluno": [
+        {
+            "nome": "José",
+            "cpf": "12341234",
+            "telefone": "9999999",
+            "Turma": [
+                {
+                    "codigo": "CI1061",
+                    "nome": "Técnicas em modelagem"
+                },
+                {
+                    "codigo": "CI1057",
+                    "nome": "Algoritmos 3"
+                }
+            ],
+            "Endereco": {
+                "Rua": "Rua das batatas",
+                "Numero": "123"
+            }
+        },
+        {
+            "nome": "Carlos",
+            "cpf": "123456",
+            "telefone": "8888888",
+            "Turma": [
+                {
+                    "codigo": "CI092",
+                    "nome": "Técnicas em modelagem"
+                },
+                {
+                    "codigo": "CI1056",
+                    "nome": "Algoritmos 2"
+                }
+            ],
+            "Endereco": {
+                "Rua": "Rua das batatas 2",
+                "Numero": "124"
+            }
+        }
+    ]
+}
