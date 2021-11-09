@@ -10,7 +10,8 @@ O arquivo "pom.xml" possui as dependências para a correta execução do projeto
 O arquivo "inp.json" é um exemplo de arquivo de entrada (exemplo da especificação do trabalho).
 
 [CÓDIGO GERADOR]
-A pasta "src" possui tres niveis: "app", "code" e "json".
+A pasta "src" possui tres níveis: "app", "code" e "json". A metodologia para ler e parsear o arquivo Json de entrada, seguiu exatamente a mesma lógica do primeiro projeto, somente a geração do código Java final que é diferente, pois se utiliza o Picocog.
+
     A pasta "app":  Contém o código Java (App.java) principal.
     A pasta "code": Contém o código Java (CodeGenerator.java) que escreve/ formata o arquivo Java de saída, usando o Picocog.
     A pasta "json": Contém os códigos Java (JsonParser.java, JsonProperty.java e JsonPropertyType.java) para parsear o arquivo Json de entrada.
