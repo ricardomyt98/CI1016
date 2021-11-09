@@ -24,4 +24,4 @@ Com o "<":
 Sem o "<"
    mvn exec:java -Dexec.mainClass="com.trab2.app.App" -Dexec.args="inp.json" && javac Programa.java && java Programa
 
-Após a execução de um dos comandos acima, o programa deverá criar os arquivos, na raiz, referente às classes lidas no arquivo de entrada e a saída padrão irá mostrar a mensagem "Hi, the Java code was generated correctly!!!".
+Após a execução de um dos comandos acima, o programa deverá criar o arquivo ".java", programa principal (Programa.java) e os arquivos ".class" (Aluno.class, Programa.class e Turma.class, referindo-se às classes do arquivo de entrada dado na especificação do trabalho) e na saída padrão irá ser mostrado a mensagem "Hi, the Java code was generated correctly!!!", indicando que o programa rodou corretamente.
